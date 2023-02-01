@@ -1,0 +1,23 @@
+.calling-1 {
+    width: 27vw;
+    height: 27vw;
+     
+    animation-name: flep;
+   animation-direction: inherit;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes flep {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+  .continer{
+    width: 1200px;
+    margin: 0 auto;
+  }
